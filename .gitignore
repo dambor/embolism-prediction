@@ -73,7 +73,7 @@ Thumbs.db
 
 # Project specific
 data/*.csv
-results/
+#results/
 *.pt
 *.pth
 logs/
