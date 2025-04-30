@@ -65,27 +65,8 @@ Our model consists of three main components:
 2. **Static Feature Encoder**: Neural network for demographic and clinical features
 3. **Feature Fusion Layer**: Combines multimodal information for final prediction
 
-![Model Architecture](./docs/model_architecture.png)
+![Model Architecture](./docs/model-diagram.svg)
 
-## Repository Structure
-
-```
-embolism-prediction/
-├── data/                           # Data processing utilities
-│   └── download_demo_data.py       # Synthetic data generator
-├── models/                         # Model implementations
-│   └── simplified_embolism_model.py # Main model implementation
-├── utils/                          # Utility functions
-│   └── visualization.py            # Plotting utilities
-├── notebooks/                      # Jupyter notebooks
-│   └── model_demo.ipynb            # Interactive demonstration
-├── results/                        # Generated outputs (created on run)
-├── main.py                         # Main entry point
-├── run.sh                          # Linux/Mac run script
-├── run.bat                         # Windows run script
-├── requirements.txt                # Python dependencies
-└── LICENSE                         # MIT License
-```
 
 ## Performance
 
